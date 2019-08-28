@@ -1,0 +1,51 @@
+/* HELPER CLASSES */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* STYLING */
+
+.container {
+    display: grid;
+    grid-template-rows: 8vh 82vh 10vh;
+}
+
+ul {
+    list-style: none;
+    display: inline;
+}
+
+ul li {
+    display: inline;
+    padding: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > * {
+    margin: 10px;
+}
+
+main input[type="search"] {
+    width: 554px;
+    font-size: 22px;
+    border-radius: 100px;
+}
+
+main div button {
+    padding: 10px;
+}
