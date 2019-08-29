@@ -10,6 +10,14 @@
 
 /* STYLING */
 
+* {
+    margin: 0;
+    padding: 3px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #000;
+}
+
 .container {
     display: grid;
     grid-template-rows: 8vh 82vh 10vh;
@@ -29,6 +37,18 @@ ul li a {
     text-decoration: none;
 }
 
+.sign-in {
+    background-color: #4387fd;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.google-apps {
+    position: relative;
+    top: 11px;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -42,10 +62,18 @@ main > * {
 
 main input[type="search"] {
     width: 554px;
-    font-size: 22px;
+    font-size: 16px;
     border-radius: 100px;
+    line-height: 32px;
+    padding: 2px 12px;
+    box-shadow: 1px .5px rgba(0, 0, 0, .1);
 }
 
 main div button {
     padding: 10px;
+    background-color: #f2f2f2;
+}
+
+button {
+    border-radius: 3px;
 }
