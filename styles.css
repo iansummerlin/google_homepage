@@ -1,18 +1,8 @@
-/* HELPER CLASSES */
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
 /* STYLING */
 
 * {
     margin: 0;
-    padding: 3px;
+    padding: 0px;
     font-family: arial, sans-serif;
     font-size: 13px;
     color: #000;
@@ -20,7 +10,14 @@
 
 .container {
     display: grid;
-    grid-template-rows: 8vh 82vh 10vh;
+    grid-template-rows: 8vh 80vh 10vh;
+    padding: 10px;
+}
+
+nav, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -46,7 +43,7 @@ ul li a {
 
 .google-apps {
     position: relative;
-    top: 11px;
+    top: 9px;
 }
 
 main {
@@ -63,7 +60,6 @@ main > * {
 main input[type="search"] {
     width: 554px;
     font-size: 16px;
-    border: none;
     border-radius: 100px;
     line-height: 32px;
     padding: 2px 12px;
